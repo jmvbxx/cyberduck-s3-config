@@ -1,0 +1,7 @@
+[{{ .Email }}]
+aws_access_key_id = {{ .AwsKey }}
+aws_secret_access_key = {{ .AwsSecret }}
+[{{ .ProfileName }}]
+role_arn=arn:aws:iam::{{ .AccountNumber }}:role/{{ .Role }}
+source_profile={{ .Email }}
+mfa_serial=arn:aws:iam::{{ .MFAAccount }}:mfa/{{ .Email }}

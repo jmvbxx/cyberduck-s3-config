@@ -1,0 +1,4 @@
+[{{ .ProfileName }}]
+role_arn=arn:aws:iam::{{ .AccountNumber }}:role/{{ .Role }}
+source_profile={{ .Email }}
+mfa_serial=arn:aws:iam::{{ .MFAAccount }}:mfa/{{ .Email }}

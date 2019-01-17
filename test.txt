@@ -1,0 +1,11 @@
+[jason@abc.com]
+aws_access_key_id = AKIA...A
+aws_secret_access_key = 8rAx...L
+[test]
+role_arn=arn:aws:iam::1234567890:role/canadian
+source_profile=jason@abc.com
+mfa_serial=arn:aws:iam::0987654321:mfa/jason@abc.com
+[another]
+role_arn=arn:aws:iam::2345678901:role/colombian
+source_profile=jacob@abc.com
+mfa_serial=arn:aws:iam::0987654321:mfa/jacob@abc.com
