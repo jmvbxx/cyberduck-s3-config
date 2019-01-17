@@ -1,7 +1,5 @@
 # Cyberduck S3 Configuration Tool
 
-![alt text](https://travis-ci.com/jmvbxx/cyberduck-s3-config.svg?branch=master "Travis Build")
-
 ## Purpose
 
 To facilitate the production, and management, of the required Cyberduck S3
