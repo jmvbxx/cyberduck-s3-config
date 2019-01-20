@@ -8,10 +8,13 @@ configuration file when `assume role` is required for Amazon AWS
 
 ## Usage (output from --help)
 ```bash
+Usage:
+  cyberduck-s3-config [command]
+
 Available Commands:
-  append      A brief description of your command
+  append      To append a new account to an existing configuration file
   delete      To delete an existing config file
-  generate    To generate
+  generate    To generate a configuration file
   help        Help about any command
 
 Flags:
@@ -21,5 +24,7 @@ Flags:
   -m, --mfa string       The account number you'd like to MFA from
   -n, --name string      The name of the profile you'd like to create
   -r, --role string      Your role
+
+Use "cyberduck-s3-config [command] --help" for more information about a command.
   ```
 
