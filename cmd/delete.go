@@ -11,13 +11,7 @@ import (
 var deleteCmd = &cobra.Command{
 	Use:   "delete",
 	Short: "To delete an existing config file",
-	Long: `Run the subcommand with the -y flag in order
-to delete your existing configuration file
-
-CAUTION:
-Once your file is deleted there is no way to restore
-it. You will have to reconstruct it.`,
-	Run: delete,
+	Run:   delete,
 }
 
 // TODO: force the use of -y flag to delete otherwise exit
